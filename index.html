@@ -139,40 +139,43 @@
         </div>
       </section>
 
-      <section id="signup">
-        <div class="grid signup-grid">
-          <div class="signup-text-outer-container">
-            <div class="signup-icon">
-              <i class="fa-solid fa-paper-plane"></i>
+      <div class="overlap-container">
+        <section id="signup">
+          <div class="grid signup-grid">
+            <div class="signup-text-outer-container">
+              <div class="signup-icon">
+                <i class="fa-solid fa-paper-plane"></i>
+              </div>
+              <div class="sign-up-text-container">
+                <h2 class="heading-signup">Sign Up For Newsletter</h2>
+                <p class="signup-text">
+                  Enter your email address to subscribe to our newsletter
+                </p>
+              </div>
             </div>
-            <div class="sign-up-text-container">
-              <h2 class="heading-signup">Sign Up For Newsletter</h2>
-              <p class="signup-text">
-                Enter your email address to subscribe to our newsletter
-              </p>
+            <div class="signup-form-container">
+              <form
+                id="form"
+                action="https://www.freecodecamp.com/email-submit"
+              >
+                <input
+                  id="email"
+                  class="form-input"
+                  type="email"
+                  placeholder="Enter your email address here"
+                />
+                <input
+                  id="submit"
+                  class="btn form-btn"
+                  type="submit"
+                  value="Subscribe"
+                />
+              </form>
             </div>
           </div>
-          <div class="signup-form-container">
-            <form id="form" action="https://www.freecodecamp.com/email-submit">
-              <input
-                id="email"
-                class="form-input"
-                type="email"
-                placeholder="Enter your email address here"
-              />
-              <input
-                id="submit"
-                class="btn form-btn"
-                type="submit"
-                value="Subscribe"
-              />
-            </form>
-          </div>
-        </div>
-      </section>
-
-      <section id="pricing"></section>
-      <footer></footer>
+        </section>
+        <footer id="footer" class="grid-4-cols"></footer>
+      </div>
     </main>
   </body>
 </html>

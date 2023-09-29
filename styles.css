@@ -80,6 +80,10 @@ h2 {
   align-items: center;
 }
 
+.grid-4-cols {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 /* Header */
 
 #header {
@@ -325,4 +329,19 @@ h2 {
   background-color: #111;
   color: #fff;
   border-left: none;
+}
+
+/* Footer */
+
+#footer {
+  position: absolute;
+  top: 50%;
+  z-index: -1;
+  height: 20rem;
+  width: 100vw;
+  background-color: #111;
+}
+
+.overlap-container {
+  position: relative;
 }
