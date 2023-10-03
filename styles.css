@@ -100,6 +100,7 @@ h2 {
   top: 0;
   width: 100%;
   background-color: #fff;
+  z-index: 100;
 }
 
 .header-container {
@@ -251,7 +252,7 @@ h2 {
   margin: 0 auto;
   background-color: #f4f1e9;
   padding: 4.8rem;
-  margin-bottom: 4.8rem;
+  margin-bottom: 12.8rem;
 }
 
 .heading-section-private {
@@ -295,11 +296,15 @@ h2 {
 /* Sign Up */
 
 #signup {
-  padding: 4.8rem;
+  position: absolute;
+  top: -50%;
+  padding: 6.4rem;
   width: 85%;
   margin: 0 auto;
   background-color: #690d23;
   color: #fff;
+  left: 0;
+  right: 0;
 }
 
 .signup-grid {
@@ -357,15 +362,21 @@ h2 {
 
 /* Footer */
 
+.overlap-div {
+  position: relative;
+  background-color: #111;
+  height: 14rem;
+  z-index: -1;
+}
+
 #footer {
-  padding: 9.6rem 0;
+  padding: 9.6rem 6.4rem;
   z-index: -1;
   background-color: #111;
 }
 
-.footer-logo-col {
-  display: flex;
-  flex-direction: column;
+.footer-grid {
+  align-items: stretch;
 }
 
 .footer-logo {
@@ -407,10 +418,16 @@ h2 {
   color: #e7e7e7;
 }
 
+.footer-address-col {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer-nav {
   list-style: none;
   display: flex;
   flex-direction: column;
+
   gap: 2rem;
 }
 
