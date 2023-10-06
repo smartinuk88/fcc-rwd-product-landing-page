@@ -1,0 +1,57 @@
+@media (max-width: 84em) {
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+
+  .hero-container {
+    gap: 3.2rem;
+    padding: 0 3.2rem;
+  }
+
+  .hero-img {
+    height: 85%;
+    width: 85%;
+    object-fit: contain;
+  }
+
+  .grid-4-cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  #section-features {
+    padding: 0 4rem;
+  }
+
+  .feature-header {
+    font-size: 1.4rem;
+  }
+
+  .feature-description {
+    font-size: 1.4rem;
+  }
+
+  .private-text {
+    font-size: 2.4rem;
+  }
+
+  .private-quote {
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem;
+  }
+}
+
+@media (max-width: 64em) {
+  .btn,
+  .btn:link,
+  .btn:visited {
+    padding: 0.8rem 2rem;
+  }
+}
+
+/* Spacing System (px) 
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 / 
+*/
+
+/* Font Sizes (px) 
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
